@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy's Louisiana Soul Food Kitchen</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=99">
+    <style>
+        html, body, body *, header, section, footer, nav, a, h1, h2, h3, p, li {
+            color: #ffffff !important;
+            background-color: transparent !important;
+        }
+        body {
+            background: linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.20)), url('/static/logo.png') no-repeat center center fixed !important;
+            background-size: cover !important;
+        }
+    </style>
+</head>
+<body style="color: #ffffff !important; background: linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.20)), url('/static/logo.png') no-repeat center center fixed; background-size: cover;">
+    <header class="topbar" style="background: transparent !important; color: #ffffff !important;">
+        <div class="logo-row">
+            <img class="logo" src="{{ url_for('static', filename='logo.PNG') }}" alt="Sandy's Louisiana Soul Food Kitchen Logo">
+            <img class="logo logo-secondary" src="{{ url_for('static', filename='logo2.PNG') }}" alt="Sandy's secondary logo">
+        </div>
+        <h1 style="color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">Sandy's Louisiana Soul Food Kitchen</h1>
+        <p class="tagline" style="color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">Louisiana Flavor in Every Bite</p>
+
+        <nav>
+            <a href="#home" style="color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">Home</a>
+            <a href="#menu" style="color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">Menu</a>
+            <a href="#about" style="color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">About</a>
+            <a href="#contact" style="color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero" style="color: #ffffff !important;">
+            <h2 style="color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">Authentic Southern Cooking</h2>
+            <p style="color: #ffffff !important;">Louisiana flavor made with love.</p>
+            <p style="color: #ffffff !important;">Enjoy satisfying soul food, comforting classics, and warm Southern hospitality.</p>
+        </section>
+
+        <section id="menu" style="color: #ffffff !important;">
+            <h2 style="color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">Our Signature Dishes</h2>
+
+            <h3 class="menu-category" style="color: #ffffff !important;">Signature Favorites</h3>
+            <h3 style="color: #ffffff !important;">Southern Fried Chicken</h3>
+            <p style="color: #ffffff !important;">Crispy, seasoned, and cooked until golden brown.</p>
+
+            <h3 style="color: #ffffff !important;">Red Beans and Rice</h3>
+            <p style="color: #ffffff !important;">A comforting Louisiana classic made with bold seasoning.</p>
+
+            <h3 style="color: #ffffff !important;">Homemade Gumbo</h3>
+            <p style="color: #ffffff !important;">A rich and hearty bowl filled with Louisiana flavor.</p>
+
+            <h3 style="color: #ffffff !important;">Cajun Shrimp</h3>
+            <p style="color: #ffffff !important;">Tender shrimp prepared with flavorful Cajun spices.</p>
+
+            <h3 class="menu-category" style="color: #ffffff !important;">Bayou Plates</h3>
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Bayou Backroad Chicken &amp; Sausage Gumbo</h3>
+                <p style="color: #ffffff !important;">$14.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Cajun Country Smothered Pork Chops</h3>
+                <p style="color: #ffffff !important;">$15.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Delta Down-Home Beef Tips &amp; Gravy</h3>
+                <p style="color: #ffffff !important;">$16.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Sunday on the Bayou Smothered Chicken</h3>
+                <p style="color: #ffffff !important;">$14.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Second Line Red Beans &amp; Rice</h3>
+                <p style="color: #ffffff !important;">$11.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Creole Porch Baked Chicken</h3>
+                <p style="color: #ffffff !important;">$14.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Atchafalaya Golden Fried Catfish</h3>
+                <p style="color: #ffffff !important;">$17.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Louisiana Lady Chicken Spaghetti</h3>
+                <p style="color: #ffffff !important;">$13.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">The Bayou Boss Pork Chop Plate</h3>
+                <p style="color: #ffffff !important;">$18.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Sandy's Sunday Supper Plate</h3>
+                <p style="color: #ffffff !important;">$19.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">The Louisiana Comfort Plate</h3>
+                <p style="color: #ffffff !important;">$17.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">The Atchafalaya Catfish Plate</h3>
+                <p style="color: #ffffff !important;">$18.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Grandma Nem's Pot Roast Plate</h3>
+                <p style="color: #ffffff !important;">$19.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">The Southern Belle Chicken Spaghetti Plate</h3>
+                <p style="color: #ffffff !important;">$16.99</p>
+            </div>
+
+            <h3 class="menu-category" style="color: #ffffff !important;">Southern Sides</h3>
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Bayou Pot Southern Greens</h3>
+                <p style="color: #ffffff !important;">$4.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Cast-Iron Country Fried Cabbage</h3>
+                <p style="color: #ffffff !important;">$4.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Down the Bayou Smothered Cabbage</h3>
+                <p style="color: #ffffff !important;">$4.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Sandy's Southern Gold Mac &amp; Cheese</h3>
+                <p style="color: #ffffff !important;">$5.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Front Porch Mashed Potatoes &amp; Gravy</h3>
+                <p style="color: #ffffff !important;">$4.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Swamp Bottom Dirty Rice</h3>
+                <p style="color: #ffffff !important;">$4.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Louisiana Sunday Green Beans</h3>
+                <p style="color: #ffffff !important;">$4.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Bayou Brown Sugar Yams</h3>
+                <p style="color: #ffffff !important;">$5.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Cajun Country White Rice</h3>
+                <p style="color: #ffffff !important;">$3.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Sweet Magnolia Cornbread</h3>
+                <p style="color: #ffffff !important;">$2.99</p>
+            </div>
+
+            <h3 class="menu-category" style="color: #ffffff !important;">Sweet Finish</h3>
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Southern Sunset Peach Cobbler</h3>
+                <p style="color: #ffffff !important;">$6.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Bayou Belle Banana Pudding</h3>
+                <p style="color: #ffffff !important;">$6.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">French Quarter Praline Bread Pudding</h3>
+                <p style="color: #ffffff !important;">$7.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Magnolia Sweet Potato Pie</h3>
+                <p style="color: #ffffff !important;">$5.99</p>
+            </div>
+
+            <h3 class="menu-category" style="color: #ffffff !important;">Drinks</h3>
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Sandy's Bayou Breeze</h3>
+                <p style="color: #ffffff !important;">$4.99</p>
+            </div>
+
+            <div class="menu-item">
+                <h3 style="color: #ffffff !important;">Bayou Porch Sipper</h3>
+                <p style="color: #ffffff !important;">$4.99</p>
+            </div>
+        </section>
+
+        <section id="about" style="color: #ffffff !important;">
+            <h2 style="color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">About Sandy's Louisiana Soul Food Kitchen</h2>
+            <p style="color: #ffffff !important;">
+                Sandy's Louisiana Soul Food Kitchen serves comforting meals
+                inspired by Louisiana cooking traditions.
+            </p>
+        </section>
+
+        <section id="contact" style="color: #ffffff !important;">
+            <h2 style="color: #ffffff !important; text-shadow: 0 2px 6px rgba(0,0,0,0.6);">Contact Us</h2>
+            <p style="color: #ffffff !important;">Business address, telephone number, and opening hours coming soon.</p>
+        </section>
+    </main>
+
+    <footer style="background: transparent !important; color: #ffffff !important;">
+        <p style="color: #ffffff !important;">&copy; 2026 Sandy's Louisiana Soul Food Kitchen</p>
+    </footer>
+</body>
+</html>
