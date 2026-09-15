@@ -14,7 +14,7 @@ app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
 app.config["MAX_CONTENT_LENGTH"] = 10 * 1024 * 1024  # 10 MB per upload
 
 # Set OWNER_PASSWORD as an environment variable before deploying; this is only a local fallback.
-OWNER_PASSWORD = os.environ.get("OWNER_PASSWORD", "sandys-kitchen-2026")
+OWNER_PASSWORD = os.environ.get("OWNER_PASSWORD", "SandyKitchen2026!")
 
 DATA_DIR = os.environ.get("DATA_DIR", app.root_path)
 GALLERY_FOLDER = os.environ.get("GALLERY_FOLDER", os.path.join(app.static_folder, "gallery"))
